@@ -1,0 +1,27 @@
+Write in C# a console program that adds two numbers:
+
+a = 4 b = 3
+
+Program 001;
+          var a,b,c;
+-BEGIN-
+
+namespace Exercise 001
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var a = 4;
+            var b = 3;
+            
+            //Here the value is assigned to "a" and "b"
+            
+            var c = a+b;
+            
+            Console.Write(c);
+        }
+    }
+}
+
+-END-
